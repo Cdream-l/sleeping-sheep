@@ -1,6 +1,6 @@
 const express=require('express')
 const api = express.Router()
-var User = require('../models/User')
+const User = require('../models/User')
 api.post('/login',(req,res)=>{
     let {telephone,password}=req.body;
     console.log(telephone)
