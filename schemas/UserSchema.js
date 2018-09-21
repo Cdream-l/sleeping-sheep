@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 //创建Schema
-var userSchema = new Schema({
+let userSchema = new Schema({
     nick:String,
     email:String,
     telephone:String,
